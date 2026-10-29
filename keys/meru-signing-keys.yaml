@@ -12,3 +12,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEE3JIzuSr7VWhztGxFgHr97iUVES7
     2GDxs9m4k8jfv93MWMuSTTyb1LoVqPcmGFkz5nWgp/kd5iobwCInowvShA==
     -----END PUBLIC KEY-----
+  thoth: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEx/jMfuZf4fRgMBI5zpcwerNG3Zxy
+    EfUyHkqINyPHaujmxGZvf8Dq99HSxPCN3vxLhPuUgNWlvpEbJyMo9gOaiw==
+    -----END PUBLIC KEY-----

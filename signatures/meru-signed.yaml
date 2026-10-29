@@ -2,7 +2,10 @@
 # a cosign signature from that app's own key, looked up by namespace in keys/meru-signing-keys.yaml. A namespace with
 # no line there runs nothing. Anything else - upstream images included - is refused.
 # Scope: namespaces with a meru.clockmost.com/app label, except the <app>-build ones (their runner and BuildKit are
-# upstream images; Meru/sindri). Thoth is left out until it moves from its own rule (clockmost-infra signed-by-thoth).
+# upstream images; Meru/sindri).
+# One exception, and only by exact digest: the pods CNPG makes for an app's database (D58), whose images are CNPG's own
+# (operator as init container + the Postgres operand). Upgrading CNPG or Postgres means updating the digests here - on
+# purpose, so nothing else slips in under that name. A pod mixing them with anything else is checked as usual.
 apiVersion: policies.kyverno.io/v1
 kind: ImageValidatingPolicy
 metadata:
@@ -14,7 +17,6 @@ spec:
     namespaceSelector:
       matchExpressions:
         - { key: meru.clockmost.com/app, operator: Exists }
-        - { key: kubernetes.io/metadata.name, operator: NotIn, values: [thoth] } # moves later (D60)
     resourceRules:
       - apiGroups: [""]
         apiVersions: [v1]
@@ -23,6 +25,14 @@ spec:
   matchConditions:
     - name: not-a-build-namespace
       expression: "!namespaceObject.metadata.name.endsWith('-build')"
+    - name: not-cnpg-database-pods
+      expression: >-
+        !(object.spec.containers.all(c, c.image in
+           ['ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1@sha256:923c267ec29636db3bee20f993d0ec4973fa22998e1adad37da79e4d32b5bc07',
+           'ghcr.io/cloudnative-pg/postgresql:16.15-202610260820-minimal-trixie@sha256:fc189febbe8c683dcf7399b93d25af3ad7a4d74c061875db300c41f0ad85f77a']) &&
+          object.spec.?initContainers.orValue([]).all(c, c.image in
+           ['ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1@sha256:923c267ec29636db3bee20f993d0ec4973fa22998e1adad37da79e4d32b5bc07',
+           'ghcr.io/cloudnative-pg/postgresql:16.15-202610260820-minimal-trixie@sha256:fc189febbe8c683dcf7399b93d25af3ad7a4d74c061875db300c41f0ad85f77a']))
   autogen:
     podControllers:
       controllers: [deployments, statefulsets, daemonsets, jobs, cronjobs]

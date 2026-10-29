@@ -5,3 +5,4 @@ resources:
   - keys/meru-signing-keys.yaml
   - signatures/meru-signed.yaml
   - exceptions/echo-build.yaml
+  - exceptions/thoth-build.yaml
