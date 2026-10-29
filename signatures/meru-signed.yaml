@@ -1,0 +1,49 @@
+# Compliance rule 8 for every Meru app (D31, D59 signatures A): each image a pod in an app's namespace runs must carry
+# a cosign signature from that app's own key, looked up by namespace in keys/meru-signing-keys.yaml. A namespace with
+# no line there runs nothing. Anything else - upstream images included - is refused.
+# Scope: namespaces with a meru.clockmost.com/app label, except the <app>-build ones (their runner and BuildKit are
+# upstream images; Meru/sindri). Thoth is left out until it moves from its own rule (clockmost-infra signed-by-thoth).
+apiVersion: policies.kyverno.io/v1
+kind: ImageValidatingPolicy
+metadata:
+  name: meru-signed
+spec:
+  validationActions: [Deny]
+  failurePolicy: Fail
+  matchConstraints:
+    namespaceSelector:
+      matchExpressions:
+        - { key: meru.clockmost.com/app, operator: Exists }
+        - { key: kubernetes.io/metadata.name, operator: NotIn, values: [thoth] } # moves later (D60)
+    resourceRules:
+      - apiGroups: [""]
+        apiVersions: [v1]
+        operations: [CREATE, UPDATE]
+        resources: [pods]
+  matchConditions:
+    - name: not-a-build-namespace
+      expression: "!namespaceObject.metadata.name.endsWith('-build')"
+  autogen:
+    podControllers:
+      controllers: [deployments, statefulsets, daemonsets, jobs, cronjobs]
+  matchImageReferences:
+    - glob: "*"
+  credentials:
+    allowInsecureRegistry: true # Zot is plain http inside the cluster (zot.clockmost.com -> its ClusterIP)
+  variables:
+    - name: keys
+      expression: "resource.Get('v1', 'configmaps', 'kyverno', 'meru-signing-keys').data"
+  attestors:
+    - name: app
+      cosign:
+        key:
+          expression: "resource.Get('v1', 'configmaps', 'kyverno', 'meru-signing-keys').data[namespaceObject.metadata.name]"
+        ctlog:
+          # Our signatures never go to Sigstore's public transparency log (D31: no record of every build).
+          insecureIgnoreTlog: true
+          insecureIgnoreSCT: true
+  validations:
+    - expression: "namespaceObject.metadata.name in variables.keys"
+      messageExpression: "'No signing key is listed for namespace ' + namespaceObject.metadata.name + ' (Meru/kyverno keys/meru-signing-keys.yaml), so nothing may run here.'"
+    - expression: "images.containers.map(image, verifyImageSignatures(image, [attestors.app])).all(e, e > 0)"
+      messageExpression: "'Images in namespace ' + namespaceObject.metadata.name + ' must be signed with its app key (Meru/kyverno keys/meru-signing-keys.yaml).'"
