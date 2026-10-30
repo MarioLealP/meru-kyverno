@@ -11,4 +11,5 @@ resources:
   - require-resources.yaml
   - require-probes.yaml
   - require-meru-labels.yaml
+  - exceptions/cert-manager.yaml
   - exceptions/falco.yaml
