@@ -6,3 +6,4 @@ resources:
   - signatures/meru-signed.yaml
   - exceptions/echo-build.yaml
   - exceptions/thoth-build.yaml
+  - exceptions/shikigami-build.yaml

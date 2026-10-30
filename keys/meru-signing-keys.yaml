@@ -1,6 +1,6 @@
 # Which signing key each Meru app's images must carry (D59, signatures A): namespace -> the app's cosign public key.
 # The rule signatures/meru-signed.yaml looks the key up by the pod's namespace. Adding an app's line here = trusting
-# its builds; the private half lives in OpenBao (apps/meru/<app>/build) and only that app's build jobs can fetch it.
+# its builds; the private half lives in OpenBao (apps/meru/<app>-build/build), where only that app's builds read it.
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -16,4 +16,9 @@ data:
     -----BEGIN PUBLIC KEY-----
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEx/jMfuZf4fRgMBI5zpcwerNG3Zxy
     EfUyHkqINyPHaujmxGZvf8Dq99HSxPCN3vxLhPuUgNWlvpEbJyMo9gOaiw==
+    -----END PUBLIC KEY-----
+  shikigami: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE6Q5Qq9vI+b5QuBEuVXVmiFunE+Vk
+    ci5NWufGXlKRnuhh9JbcVgIOqXtMzGMC2bbUm1H4ijrSNVWEc3lzMvO+nA==
     -----END PUBLIC KEY-----
