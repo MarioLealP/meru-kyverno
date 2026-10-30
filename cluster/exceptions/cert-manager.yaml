@@ -1,0 +1,19 @@
+apiVersion: policies.kyverno.io/v1
+kind: PolicyException
+metadata:
+  name: cert-manager-probes
+  namespace: kyverno
+  annotations:
+    meru.clockmost.com/reason: >-
+      cert-manager's chart (v1.21) gives the controller only a liveness probe (/livez; it has no readiness
+      endpoint - it serves no traffic, it watches the API) and the cainjector no probe at all (no health endpoint).
+      A made-up probe would prove nothing. Only those two Deployments, only the probe rule; the webhook has both.
+spec:
+  policyRefs:
+    - name: require-probes
+      kind: ValidatingPolicy
+  matchConditions:
+    - name: cert-manager-controller-and-cainjector-only
+      expression: >-
+        object.metadata.namespace == 'cert-manager' &&
+        object.metadata.name in ['cert-manager', 'cert-manager-cainjector']

@@ -5,6 +5,7 @@ One Kyverno `PolicyException` (`policies.kyverno.io`) per workload that can't me
 
 | file | rule skipped | for |
 |------|--------------|-----|
+| `cert-manager.yaml` | 6, probes | cert-manager's controller (liveness only) and cainjector (no health endpoint) |
 | `falco.yaml` | 4, restricted namespaces | the `falco` namespace (privileged, eBPF + runtime sockets) |
 
 Apps' build exceptions are not here: each app's is `../../exceptions/<app>-build.yaml`, next to its signing key.
