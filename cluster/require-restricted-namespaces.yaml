@@ -1,0 +1,20 @@
+apiVersion: policies.kyverno.io/v1
+kind: ValidatingPolicy
+metadata:
+  name: require-restricted-namespaces
+  annotations:
+    policies.kyverno.io/description: >-
+      Rule 4 - every namespace runs Kubernetes' Pod Security "restricted" profile (OpenShift's
+      restricted-v2 equivalent: non-root, no privilege escalation, all capabilities dropped, seccomp). No namespace
+      opts out.
+spec:
+  validationActions: [Deny]
+  matchConstraints:
+    resourceRules:
+      - apiGroups: [""]
+        apiVersions: [v1]
+        operations: [CREATE, UPDATE]
+        resources: [namespaces]
+  validations:
+    - expression: "object.metadata.?labels[?'pod-security.kubernetes.io/enforce'].orValue('') == 'restricted'"
+      message: "Namespaces must set pod-security.kubernetes.io/enforce: restricted."

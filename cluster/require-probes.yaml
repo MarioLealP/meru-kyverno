@@ -1,0 +1,19 @@
+apiVersion: policies.kyverno.io/v1
+kind: ValidatingPolicy
+metadata:
+  name: require-probes
+  annotations:
+    policies.kyverno.io/description: >-
+      Rule 6 - long-running workloads have liveness + readiness probes (Meru apps: /heartbeat). Jobs
+      are not long-running, so they're not checked.
+spec:
+  validationActions: [Deny]
+  matchConstraints:
+    resourceRules:
+      - apiGroups: [apps]
+        apiVersions: [v1]
+        operations: [CREATE, UPDATE]
+        resources: [deployments, statefulsets, daemonsets]
+  validations:
+    - expression: "object.spec.template.spec.containers.all(c, has(c.livenessProbe) && has(c.readinessProbe))"
+      message: "Every container needs a livenessProbe and a readinessProbe."

@@ -1,0 +1,23 @@
+apiVersion: policies.kyverno.io/v1
+kind: ValidatingPolicy
+metadata:
+  name: require-meru-labels
+  annotations:
+    policies.kyverno.io/description: >-
+      Rule 7 - every pod traceable to its Thoth (CMDB) record - app name, what it's part of, owner.
+spec:
+  validationActions: [Deny]
+  matchConstraints:
+    resourceRules:
+      - apiGroups: [""]
+        apiVersions: [v1]
+        operations: [CREATE, UPDATE]
+        resources: [pods]
+  autogen:
+    podControllers:
+      controllers: [deployments, statefulsets, daemonsets, jobs, cronjobs]
+  validations:
+    - expression: >-
+        ['app.kubernetes.io/name', 'app.kubernetes.io/part-of', 'meru.clockmost.com/owner'].all(k,
+        object.metadata.?labels[?k].orValue('') != '')
+      message: "Pods need labels app.kubernetes.io/name, app.kubernetes.io/part-of and meru.clockmost.com/owner."

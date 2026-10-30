@@ -1,0 +1,25 @@
+apiVersion: policies.kyverno.io/v1
+kind: ValidatingPolicy
+metadata:
+  name: require-resources
+  annotations:
+    policies.kyverno.io/description: >-
+      Rule 5 - memory limit + cpu/memory requests on every container, so no app can eat the server.
+spec:
+  validationActions: [Deny]
+  matchConstraints:
+    resourceRules:
+      - apiGroups: [""]
+        apiVersions: [v1]
+        operations: [CREATE, UPDATE]
+        resources: [pods]
+  autogen:
+    podControllers:
+      controllers: [deployments, statefulsets, daemonsets, jobs, cronjobs]
+  validations:
+    - expression: >-
+        object.spec.containers.all(c,
+        c.?resources.?requests[?'cpu'].hasValue() &&
+        c.?resources.?requests[?'memory'].hasValue() &&
+        c.?resources.?limits[?'memory'].hasValue())
+      message: "Every container needs resources.requests.cpu, resources.requests.memory and resources.limits.memory."

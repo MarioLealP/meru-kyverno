@@ -1,0 +1,14 @@
+# Meru's compliance rules for every workload namespace, enforced. Platform namespaces are exempt
+# in Kyverno's webhook config (Meru/meru platform/kyverno.yaml); per-workload exceptions go in exceptions/ with a reason.
+# Still to come: no fixable critical CVEs (rule 3). Rule 8 (signed images) is Meru/kyverno's meru-signed, with each
+# app's key and build exception there.
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - require-image-digest.yaml
+  - allowed-registries.yaml
+  - require-restricted-namespaces.yaml
+  - require-resources.yaml
+  - require-probes.yaml
+  - require-meru-labels.yaml
+  - exceptions/falco.yaml
