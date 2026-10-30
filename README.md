@@ -18,6 +18,16 @@ cluster trusts, so nothing here merges on its own.
 
 A stolen key of one app can only sign images that run in that app's namespace.
 
+`cluster/` holds the rules for every workload namespace, applied by their own Argo CD Application
+(`kyverno-policies` in [Meru/meru](https://git.clockmost.com/Meru/meru)), not by this repo's root:
+
+- images by digest only, from the allowed registries (our [Zot](https://git.clockmost.com/Meru/zot), which mirrors
+  the public ones);
+- Pod Security "restricted" namespaces, resource requests and limits, health probes, and Meru's ownership labels on
+  every workload;
+- `cluster/exceptions/` - the platform parts that may break one of these, each with its reason (Falco runs
+  privileged).
+
 ## Adding an app
 
 1. Its line in `keys/meru-signing-keys.yaml` (the public key from its build setup).

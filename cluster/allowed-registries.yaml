@@ -1,0 +1,29 @@
+apiVersion: policies.kyverno.io/v1
+kind: ValidatingPolicy
+metadata:
+  name: allowed-registries
+  annotations:
+    policies.kyverno.io/description: >-
+      Rule 2 - images only from our registry or docker.io / ghcr.io / quay.io (which k3s pulls through the
+      Zot mirror). Fully qualified names only.
+spec:
+  validationActions: [Deny]
+  matchConstraints:
+    resourceRules:
+      - apiGroups: [""]
+        apiVersions: [v1]
+        operations: [CREATE, UPDATE]
+        resources: [pods]
+  autogen:
+    podControllers:
+      controllers: [deployments, statefulsets, daemonsets, jobs, cronjobs]
+  variables:
+    - name: containers
+      expression: >-
+        object.spec.containers + object.spec.?initContainers.orValue([]) +
+        object.spec.?ephemeralContainers.orValue([])
+  validations:
+    - expression: >-
+        variables.containers.all(c,
+        ['zot.clockmost.com/', 'docker.io/', 'ghcr.io/', 'quay.io/'].exists(r, c.image.startsWith(r)))
+      message: "Images must come from zot.clockmost.com, docker.io, ghcr.io or quay.io (fully qualified)."

@@ -1,0 +1,17 @@
+apiVersion: policies.kyverno.io/v1
+kind: PolicyException
+metadata:
+  name: falco-privileged-namespace
+  namespace: kyverno
+  annotations:
+    meru.clockmost.com/reason: >-
+      Falco watches every process on the host through eBPF and reads the Docker and k3s runtime sockets for container
+      names - it has to run privileged, so its namespace enforces Pod Security "privileged" instead of "restricted".
+      Every other rule still applies to it.
+spec:
+  policyRefs:
+    - name: require-restricted-namespaces
+      kind: ValidatingPolicy
+  matchConditions:
+    - name: falco-namespace-only
+      expression: "object.metadata.name == 'falco'"
