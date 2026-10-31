@@ -7,3 +7,4 @@ resources:
   - exceptions/echo-build.yaml
   - exceptions/thoth-build.yaml
   - exceptions/shikigami-build.yaml
+  - exceptions/golem-build.yaml

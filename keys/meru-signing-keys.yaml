@@ -22,3 +22,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE6Q5Qq9vI+b5QuBEuVXVmiFunE+Vk
     ci5NWufGXlKRnuhh9JbcVgIOqXtMzGMC2bbUm1H4ijrSNVWEc3lzMvO+nA==
     -----END PUBLIC KEY-----
+  golem: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYZ8YqjBVzYYJF+46lUSRCdEghX/m
+    lyeYx/XNM1UgM+SbnLddll+fdR1oCLEhERWWOHNmd5AMfTBNk6LX8lpi7w==
+    -----END PUBLIC KEY-----
