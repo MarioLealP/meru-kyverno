@@ -10,4 +10,3 @@ resources:
   - exceptions/xolotl-build.yaml
   - exceptions/atlas-build.yaml
   - exceptions/janus-build.yaml
-  - exceptions/kitsune-build.yaml
