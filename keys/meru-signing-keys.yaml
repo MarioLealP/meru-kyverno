@@ -27,3 +27,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/SE5+AApGugeJGuzNOy3nbnMF8va
     VhhTcRZ0znu1yX8AQeEKhfVk3vcSsSlAe1aJNUoxJCz9TzQmV4U1qJ/I0w==
     -----END PUBLIC KEY-----
+  homunculus: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmdl3/CHXM/oDj82y+cALpS2hRcKc
+    WYzJjIbikwFRt0aOYWhlw1nmj4HqOnFVKoiqSmuWDC1s7R0lacOfgMF3UA==
+    -----END PUBLIC KEY-----
