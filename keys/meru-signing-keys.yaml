@@ -37,3 +37,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEom1xNVKlqgbhD/t+XTDNap0bE2F9
     VvaVb2OQA38R93nsHXzJupX82e88jUREth2TgTyvqGiCgM0GRbLx85QxFg==
     -----END PUBLIC KEY-----
+  kitsune: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyF3TbweD8OBlDGQS9UFNHj1QkFF4
+    AP+zYndheZxGqgo8W+ZQRqILAi8BkBRtm6uunZopb5mS8hqgtJZDFtDlNQ==
+    -----END PUBLIC KEY-----
