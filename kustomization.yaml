@@ -8,3 +8,4 @@ resources:
   - exceptions/thoth-build.yaml
   - exceptions/shikigami-build.yaml
   - exceptions/xolotl-build.yaml
+  - exceptions/atlas-build.yaml

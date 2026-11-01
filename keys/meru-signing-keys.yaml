@@ -27,3 +27,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/SE5+AApGugeJGuzNOy3nbnMF8va
     VhhTcRZ0znu1yX8AQeEKhfVk3vcSsSlAe1aJNUoxJCz9TzQmV4U1qJ/I0w==
     -----END PUBLIC KEY-----
+  atlas: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEA0wfo5qd8YSUUndC/dG3pBx8X31X
+    E/GUxF7eFqN8bBVcGc5z2DxQSqFCks9YJNwfFZ8/fCvr8oL3IX4FTy09fA==
+    -----END PUBLIC KEY-----
