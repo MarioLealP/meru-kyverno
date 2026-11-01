@@ -9,3 +9,4 @@ resources:
   - exceptions/shikigami-build.yaml
   - exceptions/xolotl-build.yaml
   - exceptions/atlas-build.yaml
+  - exceptions/janus-build.yaml
