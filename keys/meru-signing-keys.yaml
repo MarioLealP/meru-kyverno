@@ -32,3 +32,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEA0wfo5qd8YSUUndC/dG3pBx8X31X
     E/GUxF7eFqN8bBVcGc5z2DxQSqFCks9YJNwfFZ8/fCvr8oL3IX4FTy09fA==
     -----END PUBLIC KEY-----
+  janus: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEom1xNVKlqgbhD/t+XTDNap0bE2F9
+    VvaVb2OQA38R93nsHXzJupX82e88jUREth2TgTyvqGiCgM0GRbLx85QxFg==
+    -----END PUBLIC KEY-----
