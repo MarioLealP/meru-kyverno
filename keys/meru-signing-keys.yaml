@@ -42,3 +42,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEBy/UTtsfKJL5XFgBiJVE6V/0f9Ho
     P/CTHk3A/csxFckaLSN/NN+5b8DfcKDBFbAmoDVt2Sy5lH4Ge00DQEslvg==
     -----END PUBLIC KEY-----
+  heimdall: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/u6UE52UVMZzAHR+ZYKG4qvYuuY8
+    2nrujes7O6hNROJ4qnYvB/K2lI4v1lN5kmuAEAlTl1J9SUjC+pdWf8ZQlw==
+    -----END PUBLIC KEY-----
