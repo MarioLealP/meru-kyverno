@@ -13,3 +13,4 @@ resources:
   - exceptions/heimdall-build.yaml
   - exceptions/charon-build.yaml
   - exceptions/kitsune-build.yaml
+  - exceptions/homunculus-build.yaml
