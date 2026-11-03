@@ -14,3 +14,4 @@ resources:
   - exceptions/charon-build.yaml
   - exceptions/kitsune-build.yaml
   - exceptions/homunculus-build.yaml
+  - exceptions/tanuki-build.yaml
