@@ -42,3 +42,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/u6UE52UVMZzAHR+ZYKG4qvYuuY8
     2nrujes7O6hNROJ4qnYvB/K2lI4v1lN5kmuAEAlTl1J9SUjC+pdWf8ZQlw==
     -----END PUBLIC KEY-----
+  charon: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAExUJ0P11VJu1rtC6S87KRxveNGcL/
+    X0ovfbjivg2fgQK+8m1SOdhdHNXgNjClwKptCiBGaowSYNT1qOTfWc1AiA==
+    -----END PUBLIC KEY-----

@@ -11,3 +11,4 @@ resources:
   - exceptions/atlas-build.yaml
   - exceptions/janus-build.yaml
   - exceptions/heimdall-build.yaml
+  - exceptions/charon-build.yaml
