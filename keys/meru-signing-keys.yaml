@@ -47,11 +47,6 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAExUJ0P11VJu1rtC6S87KRxveNGcL/
     X0ovfbjivg2fgQK+8m1SOdhdHNXgNjClwKptCiBGaowSYNT1qOTfWc1AiA==
     -----END PUBLIC KEY-----
-  homunculus: |
-    -----BEGIN PUBLIC KEY-----
-    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmdl3/CHXM/oDj82y+cALpS2hRcKc
-    WYzJjIbikwFRt0aOYWhlw1nmj4HqOnFVKoiqSmuWDC1s7R0lacOfgMF3UA==
-    -----END PUBLIC KEY-----
   tanuki: |
     -----BEGIN PUBLIC KEY-----
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEBy/UTtsfKJL5XFgBiJVE6V/0f9Ho
