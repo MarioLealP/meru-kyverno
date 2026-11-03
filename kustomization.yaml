@@ -10,7 +10,6 @@ resources:
   - exceptions/xolotl-build.yaml
   - exceptions/atlas-build.yaml
   - exceptions/janus-build.yaml
-  - exceptions/tanuki-build.yaml
   - exceptions/heimdall-build.yaml
   - exceptions/homunculus-build.yaml
   - exceptions/kitsune-build.yaml
