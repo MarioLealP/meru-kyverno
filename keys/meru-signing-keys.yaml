@@ -47,11 +47,6 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAExUJ0P11VJu1rtC6S87KRxveNGcL/
     X0ovfbjivg2fgQK+8m1SOdhdHNXgNjClwKptCiBGaowSYNT1qOTfWc1AiA==
     -----END PUBLIC KEY-----
-  kitsune: |
-    -----BEGIN PUBLIC KEY-----
-    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyF3TbweD8OBlDGQS9UFNHj1QkFF4
-    AP+zYndheZxGqgo8W+ZQRqILAi8BkBRtm6uunZopb5mS8hqgtJZDFtDlNQ==
-    -----END PUBLIC KEY-----
   homunculus: |
     -----BEGIN PUBLIC KEY-----
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmdl3/CHXM/oDj82y+cALpS2hRcKc
