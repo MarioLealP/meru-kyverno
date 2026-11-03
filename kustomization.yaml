@@ -12,3 +12,4 @@ resources:
   - exceptions/janus-build.yaml
   - exceptions/tanuki-build.yaml
   - exceptions/heimdall-build.yaml
+  - exceptions/homunculus-build.yaml
