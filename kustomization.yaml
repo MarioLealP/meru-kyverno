@@ -15,4 +15,3 @@ resources:
   - exceptions/kitsune-build.yaml
   - exceptions/homunculus-build.yaml
   - exceptions/tanuki-build.yaml
-  - exceptions/golem-build.yaml
