@@ -57,3 +57,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmdl3/CHXM/oDj82y+cALpS2hRcKc
     WYzJjIbikwFRt0aOYWhlw1nmj4HqOnFVKoiqSmuWDC1s7R0lacOfgMF3UA==
     -----END PUBLIC KEY-----
+  tanuki: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEBy/UTtsfKJL5XFgBiJVE6V/0f9Ho
+    P/CTHk3A/csxFckaLSN/NN+5b8DfcKDBFbAmoDVt2Sy5lH4Ge00DQEslvg==
+    -----END PUBLIC KEY-----
