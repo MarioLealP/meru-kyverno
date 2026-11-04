@@ -47,3 +47,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAExUJ0P11VJu1rtC6S87KRxveNGcL/
     X0ovfbjivg2fgQK+8m1SOdhdHNXgNjClwKptCiBGaowSYNT1qOTfWc1AiA==
     -----END PUBLIC KEY-----
+  warpgate: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1VwWf7fhF9bxhMPqREARlNIJZvks
+    ZNU2nTODXbKVTIdEwFTb8ExzxT2JTJtJ1Bamprey26n58Gu+JO48DBmBJA==
+    -----END PUBLIC KEY-----
