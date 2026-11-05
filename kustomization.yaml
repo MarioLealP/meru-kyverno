@@ -14,3 +14,4 @@ resources:
   - exceptions/charon-build.yaml
   - exceptions/warpgate-build.yaml
   - exceptions/anubis-build.yaml
+  - exceptions/glitchtip-build.yaml
