@@ -62,3 +62,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEFqNCIvhmNOlay7Z8El2aIUr08Hfy
     BeKajsnTbgv+5jsSrxFNKW16lkxIeMD7SY3SWWV0rHKn7Ipi0F+tNdGFNg==
     -----END PUBLIC KEY-----
+  paissa-map: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAENPEdCJIuHbE6yyeKx3a8wmUwaBC3
+    peSDOaJKwxViih7r5UL2HwJohI2g6smUny4sQ6emqaMnLNJ1ajz5u6BpYQ==
+    -----END PUBLIC KEY-----
