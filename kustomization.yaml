@@ -17,3 +17,4 @@ resources:
   - exceptions/glitchtip-build.yaml
   - exceptions/paissa-map-build.yaml
   - exceptions/herosiege-filter-build.yaml
+  - exceptions/twitch-mira-build.yaml

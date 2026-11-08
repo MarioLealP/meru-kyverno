@@ -72,3 +72,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEMNosgAM5jk7Y3uhg8Mw4E/KQahVU
     lKz4mdImFmmwpjb6kArLRg9MdpV3pKDs5xsqdTj+ObMOsjiImzbq0ELX+Q==
     -----END PUBLIC KEY-----
+  twitch-mira: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECFx9/JDTU+dK8oz+Ypm6Q0BSVQ8O
+    0z4yUlzEocRUgF9GpOtQ0jDmHxncpmjP0Hv7uUBeJEkqAc5qx4Sve85H6A==
+    -----END PUBLIC KEY-----
