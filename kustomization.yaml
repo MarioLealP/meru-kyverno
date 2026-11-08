@@ -16,3 +16,4 @@ resources:
   - exceptions/anubis-build.yaml
   - exceptions/glitchtip-build.yaml
   - exceptions/paissa-map-build.yaml
+  - exceptions/herosiege-filter-build.yaml

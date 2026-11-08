@@ -67,3 +67,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAENPEdCJIuHbE6yyeKx3a8wmUwaBC3
     peSDOaJKwxViih7r5UL2HwJohI2g6smUny4sQ6emqaMnLNJ1ajz5u6BpYQ==
     -----END PUBLIC KEY-----
+  herosiege-filter: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEMNosgAM5jk7Y3uhg8Mw4E/KQahVU
+    lKz4mdImFmmwpjb6kArLRg9MdpV3pKDs5xsqdTj+ObMOsjiImzbq0ELX+Q==
+    -----END PUBLIC KEY-----
