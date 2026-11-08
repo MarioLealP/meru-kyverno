@@ -19,3 +19,4 @@ resources:
   - exceptions/herosiege-filter-build.yaml
   - exceptions/twitch-mira-build.yaml
   - exceptions/twitch-robin-build.yaml
+  - exceptions/twitch-mario-build.yaml

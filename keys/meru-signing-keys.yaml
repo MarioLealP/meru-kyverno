@@ -82,3 +82,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEwQCyDEmY0KgGSH2MElKGD7RGkhPh
     pq+UHrdDxmZHf+AvmWatFNF3XfIWMkgRkkodNr97XzsYA602zZbpsnL+Vg==
     -----END PUBLIC KEY-----
+  twitch-mario: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmh32mp4iO8BqNG9vwgOES87T6KbD
+    YnODC8Sg77gy2kx8rhtu8cOFz5qDobBT52ijBqHZXA56JKMGQsW+vhInyQ==
+    -----END PUBLIC KEY-----
