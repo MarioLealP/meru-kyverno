@@ -77,3 +77,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECFx9/JDTU+dK8oz+Ypm6Q0BSVQ8O
     0z4yUlzEocRUgF9GpOtQ0jDmHxncpmjP0Hv7uUBeJEkqAc5qx4Sve85H6A==
     -----END PUBLIC KEY-----
+  twitch-robin: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEwQCyDEmY0KgGSH2MElKGD7RGkhPh
+    pq+UHrdDxmZHf+AvmWatFNF3XfIWMkgRkkodNr97XzsYA602zZbpsnL+Vg==
+    -----END PUBLIC KEY-----

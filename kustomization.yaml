@@ -18,3 +18,4 @@ resources:
   - exceptions/paissa-map-build.yaml
   - exceptions/herosiege-filter-build.yaml
   - exceptions/twitch-mira-build.yaml
+  - exceptions/twitch-robin-build.yaml
