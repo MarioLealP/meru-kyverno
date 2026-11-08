@@ -87,3 +87,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmh32mp4iO8BqNG9vwgOES87T6KbD
     YnODC8Sg77gy2kx8rhtu8cOFz5qDobBT52ijBqHZXA56JKMGQsW+vhInyQ==
     -----END PUBLIC KEY-----
+  twitch-andre: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEWbz1Dg6lxq8sYB0IqIGddv3zjSRX
+    vQSDmrlfMq5d46c0FlGt7SFvTh5L/88JssquvkCIPSHRUqXWTA3adwq5Jw==
+    -----END PUBLIC KEY-----
