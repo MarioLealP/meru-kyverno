@@ -92,3 +92,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEWbz1Dg6lxq8sYB0IqIGddv3zjSRX
     vQSDmrlfMq5d46c0FlGt7SFvTh5L/88JssquvkCIPSHRUqXWTA3adwq5Jw==
     -----END PUBLIC KEY-----
+  twitch-kuri: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgMG4fBpM+IYUWybKm3ysg52WJ1Ay
+    A7nRkkhcAZph9ew39pkg0RQTnIgoTL33FNZgLRDuMacwET1c6Ix9NWSKTw==
+    -----END PUBLIC KEY-----
