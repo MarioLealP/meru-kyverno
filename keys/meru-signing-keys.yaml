@@ -122,3 +122,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEBwy9/oCGviMyxlsTlNLMQmOUSwsA
     ZaKw+eZ6AX4yldY/lftWzoDv2r7BmF1LrJoBHGbaAkeZyqQX/iUcGAnNkA==
     -----END PUBLIC KEY-----
+  felt-llm: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdidsZBjijxjZQLyRc895vZBPr4Zn
+    SHxxpIIvYD6kkmfuH91jUh44gKcrvUODa7JFjiwsu+dE0ocJBJFns15PZQ==
+    -----END PUBLIC KEY-----
