@@ -26,3 +26,4 @@ resources:
   - exceptions/ntfy-build.yaml
   - exceptions/obsidian-build.yaml
   - exceptions/searxng-build.yaml
+  - exceptions/felt-vision-build.yaml
