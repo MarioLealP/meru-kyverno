@@ -102,3 +102,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEAPXu5/JfJLbVS7lidwn9O8/DOHln
     QaMaTpasCutpPf2O4i+1gP2jECl8vtqM2MxjNmDVl2AkCMYQ5JtW3Owo8A==
     -----END PUBLIC KEY-----
+  ntfy: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaFi97394vtm27Qvkgm906HVroJvw
+    QYxshjmMY7Anfe1G27ZQjuKfCbf0e+atll7v2/P6kX6b2gQLCLxpm3ogjg==
+    -----END PUBLIC KEY-----
