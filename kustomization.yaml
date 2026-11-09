@@ -27,3 +27,4 @@ resources:
   - exceptions/obsidian-build.yaml
   - exceptions/searxng-build.yaml
   - exceptions/felt-vision-build.yaml
+  - exceptions/felt-llm-build.yaml
