@@ -24,3 +24,4 @@ resources:
   - exceptions/twitch-kuri-build.yaml
   - exceptions/whoami-build.yaml
   - exceptions/ntfy-build.yaml
+  - exceptions/obsidian-build.yaml
