@@ -112,3 +112,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEM1Xx4NDRiKCPv+Up8IJlpfcLcdzN
     U9XRFGBfdUmWfYa1zFwBeKrhRkUksXfy1fgZUk8b2gQvFoYLsHl9vhvunA==
     -----END PUBLIC KEY-----
+  searxng: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIWOG/ZKszkMZVZ/5aZXMUOHKUj4O
+    uAE1/hjBwxaZZRwSnTNSJo6MSXWaU9K/+BDL15MDmvYw0xvuOojh2DeR4Q==
+    -----END PUBLIC KEY-----

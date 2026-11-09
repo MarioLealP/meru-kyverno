@@ -25,3 +25,4 @@ resources:
   - exceptions/whoami-build.yaml
   - exceptions/ntfy-build.yaml
   - exceptions/obsidian-build.yaml
+  - exceptions/searxng-build.yaml
