@@ -97,3 +97,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgMG4fBpM+IYUWybKm3ysg52WJ1Ay
     A7nRkkhcAZph9ew39pkg0RQTnIgoTL33FNZgLRDuMacwET1c6Ix9NWSKTw==
     -----END PUBLIC KEY-----
+  whoami: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEAPXu5/JfJLbVS7lidwn9O8/DOHln
+    QaMaTpasCutpPf2O4i+1gP2jECl8vtqM2MxjNmDVl2AkCMYQ5JtW3Owo8A==
+    -----END PUBLIC KEY-----
