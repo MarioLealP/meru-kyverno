@@ -117,3 +117,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIWOG/ZKszkMZVZ/5aZXMUOHKUj4O
     uAE1/hjBwxaZZRwSnTNSJo6MSXWaU9K/+BDL15MDmvYw0xvuOojh2DeR4Q==
     -----END PUBLIC KEY-----
+  felt-vision: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEBwy9/oCGviMyxlsTlNLMQmOUSwsA
+    ZaKw+eZ6AX4yldY/lftWzoDv2r7BmF1LrJoBHGbaAkeZyqQX/iUcGAnNkA==
+    -----END PUBLIC KEY-----
