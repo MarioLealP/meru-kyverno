@@ -31,3 +31,4 @@ resources:
   - exceptions/felt-voice-build.yaml
   - exceptions/poe2rag-build.yaml
   - exceptions/felt-app-build.yaml
+  - exceptions/drive-rag-build.yaml
