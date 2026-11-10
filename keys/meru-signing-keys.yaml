@@ -137,3 +137,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEvzcp7rIanU7RO0nXKRRvl0p0CVHp
     iVndPeIHj5W0KgvUiGsgk8eg7U7EnXxfT8LlZa5Rh55V03HD02JSKFjVtA==
     -----END PUBLIC KEY-----
+  felt-app: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESaR24Wv+zpfrrjttr04fWxOh7+4T
+    47lfsjSl7Va7olVqj5XvQeZhx1Mb3YvYhs/7dC976B3tJdo3T56a3SzMyA==
+    -----END PUBLIC KEY-----
