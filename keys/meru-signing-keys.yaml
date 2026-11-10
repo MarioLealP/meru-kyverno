@@ -142,3 +142,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESaR24Wv+zpfrrjttr04fWxOh7+4T
     47lfsjSl7Va7olVqj5XvQeZhx1Mb3YvYhs/7dC976B3tJdo3T56a3SzMyA==
     -----END PUBLIC KEY-----
+  drive-rag: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEI98QFRFe5TJ+4qfp0eO7YiXlWaFK
+    rWiGTwlDG2pZy3SyADwHP4j4GcKsO6/o66oD605X7qhE+6yaxge6oWwzew==
+    -----END PUBLIC KEY-----
