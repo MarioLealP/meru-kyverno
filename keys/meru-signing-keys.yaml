@@ -127,3 +127,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdidsZBjijxjZQLyRc895vZBPr4Zn
     SHxxpIIvYD6kkmfuH91jUh44gKcrvUODa7JFjiwsu+dE0ocJBJFns15PZQ==
     -----END PUBLIC KEY-----
+  felt-voice: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjOJ2kSvgW3i/Ph9rQjpbrYnUId2D
+    Bf+FLnMMNUSarOPDQEhHDR8Y6+9u117/fhbCRZc9sCjyw5WuyE32U7KDCg==
+    -----END PUBLIC KEY-----
