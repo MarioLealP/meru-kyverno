@@ -30,3 +30,4 @@ resources:
   - exceptions/felt-llm-build.yaml
   - exceptions/felt-voice-build.yaml
   - exceptions/poe2rag-build.yaml
+  - exceptions/felt-app-build.yaml
