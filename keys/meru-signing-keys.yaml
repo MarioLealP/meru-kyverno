@@ -147,3 +147,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEI98QFRFe5TJ+4qfp0eO7YiXlWaFK
     rWiGTwlDG2pZy3SyADwHP4j4GcKsO6/o66oD605X7qhE+6yaxge6oWwzew==
     -----END PUBLIC KEY-----
+  felt-core: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEM4hxhWm777tC0WLfbjXxE/+5QMty
+    b4GR94jajUSok3u4gpvEVapzTQQocJsD0MSNYD4aDB5yXgPICcufT1cLlA==
+    -----END PUBLIC KEY-----
