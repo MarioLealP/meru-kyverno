@@ -34,3 +34,4 @@ resources:
   - exceptions/drive-rag-build.yaml
   - exceptions/felt-core-build.yaml
   - exceptions/nova-lemuria-build.yaml
+  - exceptions/ddns-build.yaml

@@ -167,3 +167,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEreIupET90flKwK9fH/R9O4j8A/dK
     bvlyHyU6cpyVj4I45KNGIXVn9Vty65ixXLwvONL1wwMTCgowpYdQKQrq7w==
     -----END PUBLIC KEY-----
+  ddns: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEscQWilq2ShppS4uN0byR0lH/zN3/
+    uibjfB2fh0yGBQrhf3sUHzjjflS9VkJVxFnxZO81lfryEbXOh5butENt5A==
+    -----END PUBLIC KEY-----
