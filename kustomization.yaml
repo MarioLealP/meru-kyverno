@@ -33,3 +33,4 @@ resources:
   - exceptions/felt-app-build.yaml
   - exceptions/drive-rag-build.yaml
   - exceptions/felt-core-build.yaml
+  - exceptions/nova-lemuria-build.yaml

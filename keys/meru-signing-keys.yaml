@@ -152,3 +152,18 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEM4hxhWm777tC0WLfbjXxE/+5QMty
     b4GR94jajUSok3u4gpvEVapzTQQocJsD0MSNYD4aDB5yXgPICcufT1cLlA==
     -----END PUBLIC KEY-----
+  nova-lemuria: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEreIupET90flKwK9fH/R9O4j8A/dK
+    bvlyHyU6cpyVj4I45KNGIXVn9Vty65ixXLwvONL1wwMTCgowpYdQKQrq7w==
+    -----END PUBLIC KEY-----
+  nova-lemuria-uat: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEreIupET90flKwK9fH/R9O4j8A/dK
+    bvlyHyU6cpyVj4I45KNGIXVn9Vty65ixXLwvONL1wwMTCgowpYdQKQrq7w==
+    -----END PUBLIC KEY-----
+  nova-lemuria-prod: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEreIupET90flKwK9fH/R9O4j8A/dK
+    bvlyHyU6cpyVj4I45KNGIXVn9Vty65ixXLwvONL1wwMTCgowpYdQKQrq7w==
+    -----END PUBLIC KEY-----
