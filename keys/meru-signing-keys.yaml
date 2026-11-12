@@ -177,3 +177,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEcCvYnh8G3pqHYyQpSXQGnJ5wgvmT
     d9YCs0py9XXzdNZmSHVpoJoSjpq98X81rSgihHC3P5BxGub3DCk5NTr/4w==
     -----END PUBLIC KEY-----
+  terraria: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEquwWeZrUXSJtxfkEAQsR1Pkfzyz0
+    ieuq8rg6ZnGBShhaFeZjgXW5lOoov0Wxr86kTapfFM7XUIkMe6+aIv1BiA==
+    -----END PUBLIC KEY-----

@@ -36,3 +36,4 @@ resources:
   - exceptions/nova-lemuria-build.yaml
   - exceptions/ddns-build.yaml
   - exceptions/factorio-build.yaml
+  - exceptions/terraria-build.yaml
