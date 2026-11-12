@@ -35,3 +35,4 @@ resources:
   - exceptions/felt-core-build.yaml
   - exceptions/nova-lemuria-build.yaml
   - exceptions/ddns-build.yaml
+  - exceptions/factorio-build.yaml
