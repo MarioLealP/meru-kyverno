@@ -38,3 +38,4 @@ resources:
   - exceptions/factorio-build.yaml
   - exceptions/terraria-build.yaml
   - exceptions/mainsail-build.yaml
+  - exceptions/ender-build.yaml
