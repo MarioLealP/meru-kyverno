@@ -40,3 +40,4 @@ resources:
   - exceptions/mainsail-build.yaml
   - exceptions/ender-build.yaml
   - exceptions/immich-ml-build.yaml
+  - exceptions/immich-build.yaml
