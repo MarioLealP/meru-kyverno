@@ -197,3 +197,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmZD0FjqcZzuLBITICqIqvwPMZDti
     wCXl7wIyvfF4MxsGcjNFTPaJqVfII5D9NhzWQfi5c4S2zoVGEj7sR0L20Q==
     -----END PUBLIC KEY-----
+  immich: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8g3CTQyLOiZeu6OG7Q5yMaM+/vTl
+    xShkIjS6Du24gtFe9R7dU5Z7a+CXfKraBG+vFVMLEzR8DfJAuEazbWoMZg==
+    -----END PUBLIC KEY-----
