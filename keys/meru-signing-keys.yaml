@@ -182,3 +182,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEquwWeZrUXSJtxfkEAQsR1Pkfzyz0
     ieuq8rg6ZnGBShhaFeZjgXW5lOoov0Wxr86kTapfFM7XUIkMe6+aIv1BiA==
     -----END PUBLIC KEY-----
+  mainsail: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIXzNZO7gVj8D6vbS9zhP+uPxJNyP
+    BMUPWjTk90ncrLov0SNfbC933aFYDPOWJIwM0Y/OHl6akojNGZE+L4cNUQ==
+    -----END PUBLIC KEY-----

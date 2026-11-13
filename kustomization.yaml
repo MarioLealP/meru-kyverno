@@ -37,3 +37,4 @@ resources:
   - exceptions/ddns-build.yaml
   - exceptions/factorio-build.yaml
   - exceptions/terraria-build.yaml
+  - exceptions/mainsail-build.yaml
