@@ -45,3 +45,4 @@ resources:
   - exceptions/zabbix-build.yaml
   - exceptions/caddy-build.yaml
   - exceptions/cloudflared-build.yaml
+  - exceptions/headscale-build.yaml
