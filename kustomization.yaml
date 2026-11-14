@@ -46,3 +46,4 @@ resources:
   - exceptions/caddy-build.yaml
   - exceptions/cloudflared-build.yaml
   - exceptions/headscale-build.yaml
+  - exceptions/gitea-build.yaml
