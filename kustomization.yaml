@@ -47,3 +47,4 @@ resources:
   - exceptions/cloudflared-build.yaml
   - exceptions/headscale-build.yaml
   - exceptions/gitea-build.yaml
+  - exceptions/openbao-build.yaml

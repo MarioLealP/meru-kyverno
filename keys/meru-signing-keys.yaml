@@ -232,3 +232,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEG/ruYmuaj9L+7h9V4RhHwuI9yHsG
     0TsYmeEYO5CVUfxrspGys6m80iHpfqOqk35F0gsQY/A2uh4ydfI2C9FJfA==
     -----END PUBLIC KEY-----
+  openbao: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjMJtF3CiymsTTYZZgWBsz9MJ+YjE
+    K5XhpABF+QftrxoolQwGxWL8rBv6BhUShXhn6teMRgFa4zZIkkRSS0dkcg==
+    -----END PUBLIC KEY-----
