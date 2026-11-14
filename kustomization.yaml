@@ -49,3 +49,4 @@ resources:
   - exceptions/gitea-build.yaml
   - exceptions/openbao-build.yaml
   - exceptions/books-build.yaml
+  - exceptions/vector-build.yaml
