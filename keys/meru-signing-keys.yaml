@@ -257,3 +257,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE5FibqhxMikZI5LmzL44JbwP5PX1m
     /L+ro8QEZZW5plSkolyoqf4sLSk+ejpX2V5XAhr94KWS4fSaPkBuIkMrQQ==
     -----END PUBLIC KEY-----
+  authentik: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPus5xxSJnX22kz0J/fiSfOWOQLbY
+    JRVOoOel9+e/3m7u6cjBXF6n3GJeG3qMUqJUYdikyVlFsdStX5m6/ec41w==
+    -----END PUBLIC KEY-----

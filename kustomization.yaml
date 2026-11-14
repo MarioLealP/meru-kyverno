@@ -52,3 +52,4 @@ resources:
   - exceptions/vector-build.yaml
   - exceptions/openobserve-gate-build.yaml
   - exceptions/openobserve-build.yaml
+  - exceptions/authentik-build.yaml
