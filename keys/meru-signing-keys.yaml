@@ -247,3 +247,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAElZlT2nj7KCaImCe66bsQHHeqml4c
     gU7QFrJy2nnYZNyoFvA0ZhRRn0yRGOgtzIPtjCK6BuiaPh4uxWPEmEg0lA==
     -----END PUBLIC KEY-----
+  openobserve-gate: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2ZUhP0SDw73EvAbhY0Z7ERnHsAvd
+    Ahi1bZbhXg3xdE2vtoLYTG1tq2Ho1ASOAuHopmiJENPAzZLgXJuiM+kQjA==
+    -----END PUBLIC KEY-----

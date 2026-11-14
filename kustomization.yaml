@@ -50,3 +50,4 @@ resources:
   - exceptions/openbao-build.yaml
   - exceptions/books-build.yaml
   - exceptions/vector-build.yaml
+  - exceptions/openobserve-gate-build.yaml
