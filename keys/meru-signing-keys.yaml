@@ -252,3 +252,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2ZUhP0SDw73EvAbhY0Z7ERnHsAvd
     Ahi1bZbhXg3xdE2vtoLYTG1tq2Ho1ASOAuHopmiJENPAzZLgXJuiM+kQjA==
     -----END PUBLIC KEY-----
+  openobserve: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE5FibqhxMikZI5LmzL44JbwP5PX1m
+    /L+ro8QEZZW5plSkolyoqf4sLSk+ejpX2V5XAhr94KWS4fSaPkBuIkMrQQ==
+    -----END PUBLIC KEY-----
