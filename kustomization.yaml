@@ -43,3 +43,4 @@ resources:
   - exceptions/immich-build.yaml
   - exceptions/zabbix-web-build.yaml
   - exceptions/zabbix-build.yaml
+  - exceptions/caddy-build.yaml
