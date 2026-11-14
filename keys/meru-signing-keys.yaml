@@ -227,3 +227,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEn1uEtaBv2stkIEkn1p42XWBkZh1h
     S50lFXgdalfp4m770VHsP6fmG861MStOFoCNHMdSuoBY1ROyhezR/n5heA==
     -----END PUBLIC KEY-----
+  gitea: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEG/ruYmuaj9L+7h9V4RhHwuI9yHsG
+    0TsYmeEYO5CVUfxrspGys6m80iHpfqOqk35F0gsQY/A2uh4ydfI2C9FJfA==
+    -----END PUBLIC KEY-----
