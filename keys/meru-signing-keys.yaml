@@ -202,3 +202,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8g3CTQyLOiZeu6OG7Q5yMaM+/vTl
     xShkIjS6Du24gtFe9R7dU5Z7a+CXfKraBG+vFVMLEzR8DfJAuEazbWoMZg==
     -----END PUBLIC KEY-----
+  zabbix-web: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdwV+QFSnBOptiJd/XoZeT826zjCD
+    niIEEvyznC6ZU/Wjq7AgbQ7MGeURMZmop0jGCJoZqfJE5XZE4rJpEsfrMw==
+    -----END PUBLIC KEY-----
