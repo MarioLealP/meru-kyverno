@@ -237,3 +237,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjMJtF3CiymsTTYZZgWBsz9MJ+YjE
     K5XhpABF+QftrxoolQwGxWL8rBv6BhUShXhn6teMRgFa4zZIkkRSS0dkcg==
     -----END PUBLIC KEY-----
+  books: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE3Y9ulGR30cLdQDWHZ20mgOM06+F2
+    tHLHt/Vrs1KhPVHFdZTqhyhR0OzPzVB8yVrdvgmnTZQOU7zEjpFCKs4wEQ==
+    -----END PUBLIC KEY-----
