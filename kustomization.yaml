@@ -48,3 +48,4 @@ resources:
   - exceptions/headscale-build.yaml
   - exceptions/gitea-build.yaml
   - exceptions/openbao-build.yaml
+  - exceptions/books-build.yaml
