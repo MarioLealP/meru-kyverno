@@ -42,3 +42,4 @@ resources:
   - exceptions/immich-ml-build.yaml
   - exceptions/immich-build.yaml
   - exceptions/zabbix-web-build.yaml
+  - exceptions/zabbix-build.yaml

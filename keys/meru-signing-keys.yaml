@@ -207,3 +207,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdwV+QFSnBOptiJd/XoZeT826zjCD
     niIEEvyznC6ZU/Wjq7AgbQ7MGeURMZmop0jGCJoZqfJE5XZE4rJpEsfrMw==
     -----END PUBLIC KEY-----
+  zabbix: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEv0/ofQpVSy8xz4jMsXj5IKdNYmC8
+    qh5bqfDckwS4O6/PTQB+/TvK1Y35XC7pdDiDC8TRWODmQlfDiKpz3g6pEQ==
+    -----END PUBLIC KEY-----
