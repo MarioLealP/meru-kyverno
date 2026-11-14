@@ -222,3 +222,8 @@ data:
     MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErtRhqf8GGyTIz292SW+WnvKA2OGB
     08iJAZilUIXb4+nRZvrYFgCGlqxPYx8LnJGSdTy0zJMbMpGtp1gI+7qkyQ==
     -----END PUBLIC KEY-----
+  headscale: |
+    -----BEGIN PUBLIC KEY-----
+    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEn1uEtaBv2stkIEkn1p42XWBkZh1h
+    S50lFXgdalfp4m770VHsP6fmG861MStOFoCNHMdSuoBY1ROyhezR/n5heA==
+    -----END PUBLIC KEY-----
