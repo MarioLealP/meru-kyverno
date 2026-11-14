@@ -44,3 +44,4 @@ resources:
   - exceptions/zabbix-web-build.yaml
   - exceptions/zabbix-build.yaml
   - exceptions/caddy-build.yaml
+  - exceptions/cloudflared-build.yaml
